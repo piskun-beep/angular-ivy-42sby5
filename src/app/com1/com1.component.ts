@@ -7,7 +7,7 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./com1.component.css'],
 })
 export class Com1Component {
-  title = 'One Component Title';
+  title = 'Com1 Title';
  
   constructor(private titleService:Title){
   }
