@@ -10,8 +10,8 @@ import { Com2Component } from './com2/com2.component'
 import { TitleService } from './services/title.service'
 
 const appRoutes: Routes = [
-  { path: 'com1', component: Com1Component, data: {  title: 'qComponent1' } },
-  { path: 'com2', component: Com2Component, data: {  title: 'qComponent2' } }
+  { path: 'com1', component: Com1Component, data: {  title: 'Component1' } },
+  { path: 'com2', component: Com2Component, data: {  title: 'Component2' } }
 ];
 
 @NgModule({
