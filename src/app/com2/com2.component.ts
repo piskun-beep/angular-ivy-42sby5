@@ -8,7 +8,7 @@ import { Title } from '@angular/platform-browser';
 })
 export class Com2Component{
   title = 'Com2 Title';
-
+  
   constructor(private titleService:Title){
   }
  
