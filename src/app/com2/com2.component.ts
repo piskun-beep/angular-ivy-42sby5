@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-com2',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./com2.component.css']
 })
 export class Com2Component{
-  constructor() { }
+  title = 'Com2 Title';
+
+  constructor(private titleService:Title){
+  }
+ 
+  ngOnInit() {
+    this.titleService.setTitle(this.title);
+  }
 }
