@@ -1,0 +1,14 @@
+p {
+  font-family: Lato;
+}
+
+a {
+  border: solid 2px green;
+  padding: 5px;
+  float: left;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: green;
+}
